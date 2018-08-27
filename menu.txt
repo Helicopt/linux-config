@@ -1,0 +1,61 @@
+# appearance
+
+# update
+sudo apt-get update
+sudo apt-get upgrade
+
+# vim
+sudo apt-get install vim
+
+# pip
+sudo apt-get install python3-pip
+sudo apt-get install python-pip
+sudo -H pip3 install --upgrade pip
+sudo -H pip2 install --upgrade pip
+
+# chrome
+
+# sogou pinyin
+
+# ssr
+sudo add-apt-repository ppa:hzwhuang/ss-qt5
+sudo apt-get update
+sudo apt-get install shadowsocks-qt5
+
+# git
+
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+
+# tmux
+
+# depend libevent >=2.1.0
+# depend ncurses
+#see website
+
+# sublime
+
+# see website
+
+# tmux config
+
+# vim config
+
+# sublime config
+
+# typora
+
+# teamviewer
+
+# openvpn
+
+# nvidia
+
+# tools
+
+sudo apt-get install htop
+sudo apt-get install lftp
+
+
+# java
