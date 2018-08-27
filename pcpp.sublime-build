@@ -1,0 +1,22 @@
+{
+	"path": "/usr/bin/",
+	"cmd": "g++ -std=c++11 -o $file_base_name $file_name -lpthread && ./$file_base_name",
+	"selector": "source.c++",
+	"shell": true,
+	"variants":
+	[
+		{
+			"name": "RUN",
+			"cmd": "g++ -std=c++11 -o $file_base_name $file_name -lpthread && ./$file_base_name"
+		},
+		{
+			"name": "RUN with terminal",
+			"cmd": "g++ -std=c++11 -o $file_base_name $file_name -lpthread && xterm -title '$file_base_name' -bg '#000' -fg '#00dfdf' -fn 10*20 -sl 1000  -e './$file_base_name && read' "
+		},
+		{
+			"name": "COMPILE",
+			"cmd": "g++ -std=c++11 -o $file_base_name $file_name -lpthread "
+		}
+	]
+}
+
